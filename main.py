@@ -138,7 +138,7 @@ async def help_handler(c: Client, m: Message):
     )
 
 
-async def create_sticker(c: Client, m: Message):
+async def create_sticker(c, m)
     if len(m.text) < 100:
         body_font_size = 35
         wrap_size = 30
